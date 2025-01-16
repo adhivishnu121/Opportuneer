@@ -1,0 +1,85 @@
+
+
+.jobs {
+    width: 100%; 
+    overflow: visible; 
+}
+
+.job-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgb(255, 113, 255);
+    transition: box-shadow 0.3s ease;
+}
+
+.job-card button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.job-card button:hover {
+    background-color: #45a049;
+}
+
+.job-details-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-gap: 10px; 
+    margin-top: 10px;
+}
+.job-results{
+	    padding: 20px ;
+
+}
+.job-results h1{
+	text-align: left;
+}
+.job-card:hover {
+    box-shadow: 0 4px 8px rgb(128, 0, 255);
+}
+
+.job-card h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    text-decoration: none;
+    margin-bottom: 10px;
+    transition: color 0.3s ease; 
+}
+.job-details-grid p span {
+    font-weight: bold;
+}
+
+.job-details-grid p span.available {
+    color: rgb(0, 255, 0);
+}
+
+.job-details-grid p span.not-available {
+    color: red;
+}
+
+.job-card h3:hover {
+    color: #0056b3; 
+}
+
+.job-card p {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.job-card p strong {
+    color: #333;
+}
+
+
+.job-card p:last-child {
+    font-weight: bold;
+    color: #007bff; 
+    font-size: 1.1rem; 
+}

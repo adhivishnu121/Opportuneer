@@ -1,0 +1,175 @@
+/* App.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+    font-family: Calibri;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    overflow: hidden;
+}
+
+.App-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    color: black;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+footer {
+    margin-top: auto; 
+    padding: 20px;
+    background-color: #f1f1f1;
+    text-align: center;
+    width: 100%;
+}
+
+.App-logo {
+    height: 60px;
+    margin-left: 15px;
+}
+
+.nav-right {
+    margin-right: 20px;
+}
+
+.profile-button { 
+    background: none; 
+    box-shadow: 0 2px 10px rgb(210, 210, 210);
+    border: none; 
+    cursor: pointer; 
+    padding: 10px; 
+    margin-right: 10px;
+}
+
+.profile-button:hover {    
+    background-color: rgb(0, 255, 0);
+}
+
+.lgbutton {
+    background-color: rgb(181, 108, 230);
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 11);
+    margin-right: 10px;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.rgbutton {
+    background-color: #ff88ef;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 11);
+    border-radius: 25px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.lgbutton:hover {
+    background-color: #ff88ef;
+    color: black;
+    transform: translateY(-2px);
+}
+
+.rgbutton:hover {
+    background-color: rgb(181, 108, 230);
+    color: black;
+    transform: translateY(-2px);
+}
+
+.button-group {
+    display: flex;
+    gap: 20px; 
+}
+
+
+.App-main {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; 
+    background-color: #f9f9f9;
+    margin-top: 10px; 
+    flex-grow: 1; 
+     
+    box-sizing: border-box;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    font-family: cursive;
+    width: 250px;
+    height: 100%;
+    background: #fff;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    z-index: 1001; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.sidebar li {
+    text-decoration: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.3s ease;
+    animation: fadeInUp 1.0s ease-in-out forwards; 
+    font-family: cursive;
+}
+
+.sidebar a {
+    text-decoration: none; 
+    color: inherit; 
+}
+
+.close-button {
+    background: none;
+    border: none;
+    font-size: 1.5em;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: rgb(0, 0, 0);
+    width: 40px;  
+    height: 40px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1002; 
+    pointer-events: all; 
+}
+
+.dashbutton, .pjbutton {
+    background-color: rgb(255, 217, 251);
+    color: black;
+    padding: 10px;
+    text-decoration: none;
+    box-shadow: 0 2px 10px rgb(148, 148, 148);
+    border-radius: 25px;
+    font-size: 16px;
+    font-family: cursive;
+    transition: background-color 0.3s ease;
+}
+
+.dashbutton:hover, .pjbutton:hover {
+    background-color: rgb(201, 147, 255);
+    transform: translateY(-2px);
+}

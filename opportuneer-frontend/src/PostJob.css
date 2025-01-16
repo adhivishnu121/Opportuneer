@@ -1,0 +1,59 @@
+.post-job {
+   padding: 20px;
+    font-family: Arial, sans-serif;
+    display: flex;
+    width: 100%;
+    margin-top: 60px;    flex-direction: column;
+    background-color: #f4f4f4;
+    height: 90vh; 
+    overflow-y: auto; 
+
+}
+
+.post-job h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.sponsorship-container {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.sponsorship-option {
+    display: flex;
+    gap: 1px;
+    font-size: 16px;
+}
+
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(162, 68, 255);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(0, 181, 0);
+}

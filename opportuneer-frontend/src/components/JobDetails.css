@@ -1,0 +1,128 @@
+.job-details {
+    margin: 60px auto;
+width: 100%;    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.51);
+    overflow-y: auto;
+        flex-direction: column;
+        height: 90vh;
+
+}
+
+.job-details h1 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.job-details p {
+    font-size: 1rem;
+    margin: 5px 0;
+    line-height: 1.5;
+}
+
+.job-description h3 {
+    font-size: 1.5rem;
+    color: #444;
+    margin-top: 15px;
+}
+
+.job-description p {
+    margin: 10px 0;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.job-description ul {
+    margin-left: 20px;
+}
+
+.job-description li {
+    margin-bottom: 5px;
+}
+
+
+.error-message {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+.loading-message {
+    color: #666;
+    font-size: 1.2rem;
+    text-align: center;
+}
+.apply-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.apply-button:hover {
+    background-color: #0056b3;
+}
+
+.apply-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+.job-details-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.job-details-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.job-details-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.job-details-container label {
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.job-details-container input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.job-details-container button {
+    padding: 10px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
+
+.job-details-container button:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+.job-actions{
+	margin-top: 30px;
+	display: flex;
+	    justify-content: space-between;
+
+	
+}

@@ -1,0 +1,142 @@
+
+.employer-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    background-image: url('./bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    overflow-y: auto;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box; 
+}
+
+
+.App-header {
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffff;
+    color: black; 
+    height: 60px; 
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+}
+
+.App-logo {
+    height: 60px;
+    margin-left: 15px;
+}
+
+.employer-nav {
+    display: flex;
+    gap: 20px;
+}
+
+
+
+
+.employer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    color: #333;
+   flex: 1; 
+}
+
+
+.employer-title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.employer-description {
+    font-size: 1.5em;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+
+.steps-container {
+    margin-top: 40px;
+    padding: 20px;
+    background: radial-gradient(circle, rgba(255,255,255,0.9), rgba(255,255,255,0.7)); 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s;
+    width: 100%;
+    max-width: 800px; 
+}
+
+
+.steps-title {
+    font-size: 2em;
+    margin-bottom: 30px;
+    color: darkviolet;
+}
+
+
+.steps-list {
+    list-style: none;
+    padding: 0;
+}
+
+.steps-item {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #333;
+}
+
+
+.step {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+            box-shadow: 0 4px 8px rgb(255, 113, 255);
+    animation: fadeIn 1s ease-in-out;
+    transition: transform 0.3s;
+}
+
+.step:hover {
+    transform: translateY(-15px); 
+    box-shadow: 0 4px 8px rgb(128, 0, 255);
+
+}
+
+
+.step-description {
+    font-size: 1em;
+    color: #555;
+    line-height: 1.6;
+}
+.step h3 {
+    font-size: 1.5em;
+    color: #0056b3;
+    margin-bottom: 10px;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

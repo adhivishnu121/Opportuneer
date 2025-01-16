@@ -1,0 +1,105 @@
+
+.emplg-container {
+ display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%; 
+    background-image: url('./bg.jpg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    
+}
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.emplgn-container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 50px;
+    background: #4DF6E4;
+    border-radius:50px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    animation-delay: 0.3s;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+
+
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+
+}
+
+.lgn-button {
+    width: 100%;
+    padding: 10px;
+background-color: rgb(0, 0, 0);   
+    color: white;
+        border: none;
+    box-shadow: 0 2px 10px rgb(255, 255, 255);
+
+    border-radius: 25px;
+    font-size: 16px;
+    cursor: pointer;
+    
+    animation-delay: 0.3s;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+
+}
+
+.lgn-button:hover {
+     background-color:#ff53e6;
+            color: black;
+
+}
+
+.footer-text {
+    text-align: center;
+    margin-top: 15px;
+    color: #0B0C0C;
+}
+
+.footer-text a {
+               color: black;
+
+    text-decoration: none;
+    animation-delay: 0.7s;
+    animation: fadeInUp 1.2s ease-in-out forwards;
+
+}
+
+.footer-text a:hover {
+    text-decoration: none;
+ color: #ffff;
+}

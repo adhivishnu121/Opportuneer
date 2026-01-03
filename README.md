@@ -99,3 +99,9 @@ Ensures robustness of APIs and correctness of business logic
 The project is fully functional locally; no live deployment required
 
 Focus is on backend functionality and full-stack integration rather than production-level security or deployment
+---
+##👤 Author
+
+Adhivishnu Ganipineni
+MSc Advanced Computer Science
+LinkedIn : https://www.linkedin.com/in/adhivishnu121/

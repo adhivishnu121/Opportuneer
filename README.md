@@ -65,3 +65,37 @@ The system supports **job management, application tracking, user authentication,
 
 ```bash
 git clone https://github.com/adhivishnu121/opportuneer.git
+Navigate to backend folder and run Spring Boot:
+
+cd backend
+mvn spring-boot:run
+
+
+Navigate to frontend folder and run React app:
+
+cd frontend
+npm install
+npm start
+
+
+Access the app on your browser at http://localhost:3000
+
+🧪 Testing
+
+Backend tested with JUnit for:
+
+Job posting validation
+
+Applicant application rules
+
+Saved job logic
+
+Email notifications
+
+Ensures robustness of APIs and correctness of business logic
+
+📄 Notes
+
+The project is fully functional locally; no live deployment required
+
+Focus is on backend functionality and full-stack integration rather than production-level security or deployment
